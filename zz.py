@@ -24,7 +24,7 @@ def Exploits():
                         else:
                                 print(' [x] {} --> {} Debug Log Not Found!{}'.format(b,red,w))
         except:
-                print(' [x] {} --> {}Website Error!{}'.format(b,r,w))
+                print(' [x] {} --> {}Website Error!{}'.format(b,red,w))
 
         print('\n')
         print(' [@] Result saved on result.txt')
