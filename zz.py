@@ -1,7 +1,7 @@
 import requests
 from threading import Thread
 w = '\033[0;37;40m'
-r = '\033[1;31;40m'
+red = '\033[1;31;40m'
 g = '\033[1;32;40m'
 
 def Exploits():
@@ -20,9 +20,9 @@ def Exploits():
                                         saveres = open('result.txt', 'a')
                                         saveres.write(b+'/wp-content/plugins/easy-wp-smtp\n')
                                 else:
-                                        print(' [x] {} --> {} Debug Log Not Found!{}'.format(b,r,w))
+                                        print(' [x] {} --> {} Debug Log Not Found!{}'.format(b,red,w))
                         else:
-                                print(' [x] {} --> {} Debug Log Not Found!{}'.format(b,r,w))
+                                print(' [x] {} --> {} Debug Log Not Found!{}'.format(b,red,w))
         except:
                 print(' [x] {} --> {}Website Error!{}'.format(b,r,w))
 
